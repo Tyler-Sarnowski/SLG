@@ -9,6 +9,10 @@ public class plrClasses {
         
     }
     class Ranger{
+        String name;
+        int hp,str,dex,wis,stam;
+        String[] spells = {".","."};
+        final int STR = 10,DEX = 10,WIS = 5,STAM = 5;
         
     }
     class Warrior{
