@@ -17,6 +17,10 @@ public class guis extends JFrame implements ActionListener{
         add(namel);
         namet = new JTextField(null,25);
         add(namet);
+        createb = new JButton("CREATE CHARACTER");
+        add(createb);
+        resetb = new JButton("RESET");
+        add(resetb);
         exitb = new JButton("EXIT");
         add(exitb);
         //..//
